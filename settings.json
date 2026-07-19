@@ -13,6 +13,7 @@
     "dock": "left"
   },
   "edit_predictions": {
+    "provider": "zed",
     "disabled_globs": [
       "**/.env*",
       "**/*.pem",
@@ -40,11 +41,15 @@
       "model": "claude-haiku-4-5"
     }
   },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
 
   // extensions
+  "lsp": {
+    "ols": {
+      "initialization_options": {
+        "enable_fake_methods": true
+      }
+    }
+  },
   "auto_install_extensions": {
     "basher": true,
     "catppuccin": true,
