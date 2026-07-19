@@ -1,5 +1,17 @@
 {
   // ai settings
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "edit_predictions": {
     "disabled_globs": [
       "**/.env*",
@@ -17,6 +29,7 @@
     }
   },
   "agent": {
+    "dock": "right",
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "zed.dev",
